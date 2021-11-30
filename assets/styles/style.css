@@ -191,6 +191,10 @@ a{ text-decoration: none; font-size: var(--fontSize-Link);}
 
 @media screen and (max-width:868px){
 
+    .nav{
+        width: 75%;
+    }
+
     .nav ul li a{
         font-size: 1.19rem;
     }
@@ -213,6 +217,13 @@ a{ text-decoration: none; font-size: var(--fontSize-Link);}
 
     .info-container-Contact {
         width: 70%;
+    }
+}
+
+@media screen and (min-width: 1180px) and (orientation: landscape){
+
+    .info-container-AboutMe{
+        width: 90%;
     }
 }
 
