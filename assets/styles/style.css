@@ -249,3 +249,24 @@ a{ text-decoration: none; font-size: var(--fontSize-Link);}
     }
 }
 
+@media screen and (min-width: 390px){
+    
+    .info-container-Home{
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .tittle{
+        font-size: .98rem;
+    }
+
+    .nav{
+        padding: 0;
+
+    }
+
+    .nav ul li a{
+        font-size: .8rem;
+    }
+}
+
