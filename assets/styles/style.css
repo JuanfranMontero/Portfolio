@@ -34,7 +34,7 @@ p{ font-size: var(--fontSize-P);}
 a{ text-decoration: none; font-size: var(--fontSize-Link);}
 
 .container-Home, .container-AboutMe, .container-Projects, .container-Contact{
-    max-width: 100vw;
+    max-width: 100%;
     min-height: 100vh;
     display: flex;
     justify-content: center;
